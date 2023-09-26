@@ -74,8 +74,4 @@ The project's configuration details are specified in the `pom.xml` file:
 
 ## Contributors
 
-- [Your Name]
-
-## License
-
-This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
+- Mausam Raj
