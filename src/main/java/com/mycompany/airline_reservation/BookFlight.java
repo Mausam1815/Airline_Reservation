@@ -526,9 +526,9 @@ public class BookFlight extends javax.swing.JInternalFrame {
 
     private void calFareActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_calFareActionPerformed
         // TODO add your handling code here:
-        int Fare = Integer.parseInt(fare.getText());
-        int numOfTickets = Integer.parseInt(totalTickets.getText());
-        int finalFare = (Fare * numOfTickets);
+        double Fare = Double.parseDouble(fare.getText());
+        double numOfTickets = Double.parseDouble(totalTickets.getText());
+        double finalFare = (Fare * numOfTickets);
         
         totalFare.setText(String.valueOf(finalFare));
     }//GEN-LAST:event_calFareActionPerformed
